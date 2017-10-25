@@ -10,9 +10,13 @@
 			parent::__construct();
 		}
 
-		public function index()
+		public function index(){
+			$this->ciparser->new_parse('template','modules_home','event');
+		}
+
+		public function detail_event()
 		{
-			echo "asdasdasads";
+			$this->ciparser->new_parse('template','modules_home','detail-event');
 		}
 	}
  ?>

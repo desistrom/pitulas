@@ -18,9 +18,9 @@ class Home extends MX_Controller  {
 
     public function index(){
     	$format = 'DATE_RFC822';
-$time = time();
-print_r(standard_date($format, $time));
+		$time = time();
+		print_r(standard_date($format, $time));
     	$this->ciparser->new_parse('template','modules_home','home_layout');
-    }
+	}
 }
 ?>

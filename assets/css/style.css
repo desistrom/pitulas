@@ -32,6 +32,9 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 .header {
     background: #212121;
 }
+.profile-content {
+    text-align: justify;
+}
 .navbar-default {
     background: none;
     border: none;
@@ -47,14 +50,15 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     color: #fff;
 }
 .w3layouts-logo {
-    margin: 1em 0 0 0;
+    margin: 7px 0 0 25px;
 }
 .w3layouts-logo h1{
 	margin:0;
 }
 .w3layouts-logo h1 a {
-    font-family: 'Righteous', cursive;
+    font-family: 'Arial', cursive;
     font-size: .8em;
+    font-weight: bold;
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -65,6 +69,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     font-size: .3em;
     letter-spacing: 5px;
     text-align: right;
+    margin-right: 125px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .navbar-nav {
@@ -82,7 +87,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 .navbar-nav > li > a {
     font-size: 14px;
-    padding:35px 25px;
+    padding: 22px 10px;
     text-transform: uppercase;
 	margin-right:5px;
 }
@@ -139,7 +144,6 @@ ul.dropdown-menu {
     box-shadow: 0 0 0;
     border: none;
     margin: 0;
-    top: 6.4em;
     left: 0;
     min-width: 105px;
 }
@@ -274,6 +278,60 @@ ul.dropdown-menu {
     padding: 1em;
     z-index: 1;
 }
+
+
+/*Page logo perusahaan*/
+.logo{
+    width: 30%;
+    height: 30%;
+}
+
+/*Page event perusahaan*/
+.row{
+    margin: 5px 0 10px 0;
+    font-size: 100%;
+}
+.event a.event-judul{
+    color: black;
+}
+.detail-event img {
+    width: 450px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-inline {
+    margin: 20px;
+}
+.btn-inline button {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+}
+.btn-inline button:hover {
+    background: #E4E6E7;
+}
+.btn-inline .btn-akhir {
+    width: 80px;
+}
+
+/*Page Sambutan Direktur Utama*/
+.img-atas {
+    margin: 20px;
+}
+.isi-sambutan {
+    text-align: justify;
+}
+.isi-sambutan p{
+    text-indent: 40px;
+}
+
+.img-event {
+    margin: 10px 0;
+}
+
+
 /* General button style (reset) */
 .btn {
 	border: none;
@@ -302,6 +360,12 @@ ul.dropdown-menu {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+}
+
+
+iframe{
+    width: 100%;
+    height: 265px;
 }
 
 /* Button 1b */
@@ -336,9 +400,9 @@ ul.dropdown-menu {
     padding-bottom:1em;
 }
 .services-heading h2,.services-heading h3,.about-banner h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #aebe27;
-    font-family: 'Righteous', cursive;
+    font-family: 'arial', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin: 0;
@@ -938,10 +1002,10 @@ img.img-responsive {
 /***** Roxy *****/
 /*---------------*/
 
-figure.effect-roxy {
+/*figure.effect-roxy {
 	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
 	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
-}
+}*/
 
 figure.effect-roxy img {
 	max-width: none;
