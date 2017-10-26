@@ -1,3 +1,8 @@
+	<style type="text/css">
+		.banner_text{
+			background-image: url(<?=base_url().'assets/images/bg_home.jpg';?>);
+		}
+	</style>
 	<!-- banner -->
 	<div class="banner">
 		<div class="container">
@@ -18,7 +23,7 @@
 								<div class="banner_text">
 									<h3>Nam semper nisi enim</h3>
 									<div class="w3ls-line"> </div>
-									<p>Farming Company</p>
+									<p>PT Pitulas Bojonegoro</p>
 									<div class="w3-button">
 										<a href="single.html" class="btn btn-1 btn-1b">Read More</a>
 									</div>
@@ -34,6 +39,8 @@
 				$(window).load(function(){
 					$('.flexslider').flexslider({
 						animation: "slide",
+						speed: 10000,
+						timeout: 9000,
 						start: function(slider){
 						$('body').removeClass('loading');
 						}
