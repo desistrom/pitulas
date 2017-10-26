@@ -54,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                     <nav>
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="<?=site_url().'client/Beranda/index';?>">Home</a></li>
+                            <li class="active"><a href="<?=site_url().'home/Beranda';?>">Home</a></li>
                             <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang Kami<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/profile_perusahaan';?>">Profil Perusahaan</a></li>
