@@ -10,7 +10,7 @@
 	<!-- banner -->
 	<div class="banner about-banner">
 		<div class="container">
-			<h2>Jasa Pertokoan</h2>
+			<h2>Jasa Angkutan</h2>
 			<div class="agileits-line"> </div>
 		</div>
 	</div>

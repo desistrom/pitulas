@@ -10,17 +10,17 @@
 	<div class="gallery">
 		<div class="container">
 			<div class="gallery-grids">
+				<?php for ($i=0; $i < 3; $i++) { ?>
 				<div class="col-md-4 gallery-grid">
 					<div class="grid">
-						<?php for ($i=0; $i < ; $i++) { ?>
-							<figure class="effect-roxy">
-								<a class="example-image-link" href="<?=base_url().'assets/images/g1.jpg';?>">
-									<img src="<?=base_url().'assets/images/g1.jpg';?>" alt="" />	
-								</a>
-							</figure>
-						<?php } ?>
+						<figure class="effect-roxy">
+							<a class="example-image-link" href="<?=base_url().'assets/images/g1.jpg';?>">
+								<img src="<?=base_url().'assets/images/g1.jpg';?>" alt="" />	
+							</a>
+						</figure>
 					</div>
 				</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>

@@ -35,7 +35,7 @@
 			$this->ciparser->new_parse('template','modules_home','resi-gudang');
 		}
 
-		public function kawassan_pangan()
+		public function kawasan_pangan()
 		{
 			$this->ciparser->new_parse('template','modules_home','kawasan-pangan');
 		}

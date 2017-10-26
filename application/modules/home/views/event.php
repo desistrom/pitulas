@@ -15,11 +15,11 @@
 					<img class="img-responsive" src="<?=base_url().'assets/images/pp.png';?>">
 				</div>
 				<div class="col-md-10">
-					<h3><a class="event-judul" href="<?=site_url().'home/Beranda/detail_event';?>">Pemanenan Padi</a></h3>
+					<h3><a class="event-judul" href="<?=site_url().'home/Event/detail_event';?>">Pemanenan Padi</a></h3>
 					<p>
 						Pemanenan padi dilakukan di desa Mojodelik Kabupaten Bojonegoro, pada bulan November lalu yang menghasilkan ribuat ton padi yang belum jadi beras ....
 					</p>
-					<a href="<?=site_url().'home/Beranda/detail_event';?>">Read more ...</a>
+					<a href="<?=site_url().'home/Event/detail_event';?>">Read more ...</a>
 				</div>
 			</div>
 			<hr>
