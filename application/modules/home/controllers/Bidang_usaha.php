@@ -20,6 +20,11 @@
 			$this->ciparser->new_parse('template','modules_home','jasa-angkutan');
 		}
 
+		public function jasa_pertokoan()
+		{
+			$this->ciparser->new_parse('template','modules_home','jasa-pertokoan');
+		}
+
 		public function jasa_pergudangan()
 		{
 			$this->ciparser->new_parse('template','modules_home','jasa-pergudangan');
