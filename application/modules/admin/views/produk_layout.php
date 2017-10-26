@@ -33,25 +33,25 @@
 <div class="dewkan-komisaris">
   <div class="col col-md-12 col-sm-12">
       <div class="panel panel-default" >
-        <div class="panel-heading">Dewan Komisaris</div>
+        <div class="panel-heading">Produk</div>
         <div class="panel-body">
           <div>
             <div class="box">
                 <div class="nama" style="margin-bottom: 20px;">
-                  <span style="margin-right: 23px";><label style="font-size: 15px";>Nama </label></span><span><input type="text" name="inputnama"></span>
+                  <span style="margin-right: 23px";><label style="font-size: 15px";>Nama Produk</label></span><span><input type="text" name="inputnama"></span>
                 </div>
                 <div class="box-judul">
-                  <span><label style="font-size: 15px";>Foto </label></span>
+                  <span><label style="font-size: 15px";>Foto Produk</label></span>
                   <span class=" choose foto" style="margin-left: 30px">
                         <input  type="file" name="foto">
                     </span>
                 </div>
                 <div class="jabatan">
-                  <span style="margin-right: 10px";><label style="font-size: 15px";>Jabatan </label></span><span><input type="text" name="inputjabatan"></span>
+                  <span style="margin-right: 62px";><label style="font-size: 15px";>Jumlah </label></span><span><input type="text" name="inputjabatan"></span>
                 </div>
 
                 <div class="box-header">
-                    <div class="box-title"><label style="font-size: 15px";>Profil</label></div>
+                    <div class="box-title"><label style="font-size: 15px";>Keterangan</label></div>
                 </div>
             <!-- /.box-header -->
               <div class="box-body pad">
