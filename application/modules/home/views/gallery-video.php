@@ -13,7 +13,7 @@
 				<div class="col-md-4 gallery-grid">
 					<div class="grid">
 						<figure class="effect-roxy">
-							<a class="example-image-link" href="<?=site_url().'home/Beranda/detail_video';?>">
+							<a class="example-image-link" href="<?=site_url().'home/Gallery/detail_video';?>">
 								<iframe src="https://www.youtube.com/embed/l2VDeWZ3fYI" frameborder="0" allowfullscreen></iframe>
 								<figcaption>
 									<h3>Maecenas <span>lacus</span></h3>
@@ -26,7 +26,7 @@
 				<div class="col-md-4 gallery-grid">
 					<div class="grid">
 						<figure class="effect-roxy">
-							<a class="example-image-link" href="<?=site_url().'home/Beranda/detail_video';?>" data-lightbox="example-set" data-title="In lacinia pharetra ipsum vel dapibus. Ut vitae tristique nisi, mattis pellentesque elit. Proin mollis sed nisi ac sodales.">
+							<a class="example-image-link" href="<?=site_url().'home/Gallery/detail_video';?>" data-lightbox="example-set" data-title="In lacinia pharetra ipsum vel dapibus. Ut vitae tristique nisi, mattis pellentesque elit. Proin mollis sed nisi ac sodales.">
 								<iframe src="https://www.youtube.com/embed/AnSHDVkPau4" frameborder="0" allowfullscreen></iframe>
 								<figcaption>
 									<h3>Aliquam <span>porta</span></h3>
