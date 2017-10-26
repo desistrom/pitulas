@@ -57,40 +57,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li class="active"><a href="<?=site_url().'client/Beranda/index';?>">Home</a></li>
                             <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tentang Kami<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Profile_peruashaan';?>">Profil Perusahaan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Sejarah';?>">Sejarah Perusahaan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Visi_misi';?>">Visi, Misi dan Strategi</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Logo';?>">Logo Perusahaan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Struktur';?>">Struktur Organisasi</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Sambutan';?>">Sambutan Direktur Utama</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Dewan_komisaris';?>">Dewan Komisaris</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Dewan_direksi';?>">Dewan Direksi</a></li>          
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/profile_perusahaan';?>">Profil Perusahaan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/sejarah';?>">Sejarah Perusahaan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/visi_misi';?>">Visi, Misi dan Strategi</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/logo';?>">Logo Perusahaan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/struktur';?>">Struktur Organisasi</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/sambutan';?>">Sambutan Direktur Utama</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/dewan_komisaris';?>">Dewan Komisaris</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Tentang_kami/dewan_direksi';?>">Dewan Direksi</a></li>          
                                 </ul>
                             </li>
                             <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bidang Usaha<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Perdagangan';?>">Perdagangan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Jasa_pergudangan';?>">Jasa Pergudangan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Jasa_pertokoan';?>">Jasa Pertokoan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Jasa_angkutan';?>">Jasa Angkutan</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Resi_gudang';?>">Resi Gudang</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Kawasan_pangan';?>">Kawasan Pangan</a></li>         
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Bidang_usaha/perdagangan';?>">Perdagangan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Bidang_usaha/jasa_pergudangan';?>">Jasa Pergudangan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Bidang_usaha/jasa_pertokoan';?>">Jasa Pertokoan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Bidang_usaha/jasa_angkutan';?>">Jasa Angkutan</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Bidang_usaha/resi_gudang';?>">Resi Gudang</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Bidang_usaha/kawasan_pangan';?>">Kawasan Pangan</a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?=site_url().'client/Beranda/event';?>" class="hvr-sweep-to-bottom">Event</a></li>
+                            <li><a href="<?=site_url().'home/Event';?>" class="hvr-sweep-to-bottom">Event</a></li>
+                            <li><a href="<?=site_url().'home/Produk';?>" class="hvr-sweep-to-bottom">Produk</a></li>
                             <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galery<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Gallery_foto';?>">Foto</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Gallery_video';?>">Video</a></li>          
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Gallery/gallery_foto';?>">Foto</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Gallery/gallery_video';?>">Video</a></li>          
                                 </ul>
                             </li>
                             <li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pusat Informasi<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Harga_beras';?>">Harga Beras</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Stok_beras';?>">Stock Beras</a></li>          
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Harga_polyback';?>">Harga Polyback</a></li>          
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Stok_polyback';?>">Stock Polyback</a></li>
-                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Matrix_10';?>">Matrix 10</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Pusat_informasi/harga_beras';?>">Harga Beras</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Pusat_informasi/stock_beras';?>">Stock Beras</a></li>          
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Pusat_informasi/harga_polyback';?>">Harga Polyback</a></li>          
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Pusat_informasi/stock_polyback';?>">Stock Polyback</a></li>
+                                    <li><a class="hvr-sweep-to-bottom" href="<?=site_url().'home/Pusat_informasi/matrix_10';?>">Matrix 10</a></li>
                                 </ul>
                             </li>
                             <li><a href="<?=site_url().'home/Contact';?>" class="hvr-sweep-to-bottom">Hubungi Kami</a></li>
