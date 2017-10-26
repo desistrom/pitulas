@@ -13,7 +13,7 @@
 	<!-- //banner -->
 	<!-- contact -->
 	<div class="container">
-		<center><img class="logo" src="<?=base_url().'assets/images/lp.png';?>"></center>
+		<center><img class="logo" src="<?=base_url().'assets/images/logo_pt.png';?>"></center>
 		<div class="deskripsi">
 			<p>
 				Logo <strong>PT PITULAS BOJONEGORO</strong> memiliki arti yang sangat indah, penting, mudah di fahami, dan mudah diterima di kalangan masyarakat umum khususnya di daerah Bojonegoro.

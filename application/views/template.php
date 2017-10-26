@@ -10,6 +10,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- bootstrap-css -->
 <link href="<?=base_url().'assets/css/bootstrap.css';?>" rel="stylesheet" type="text/css" media="all" />
 <!--// bootstrap-css -->
+<!-- icon -->
+<link rel="icon" type="icon" href="<?=base_url().'assets/images/logo_pt.png';?>">
+<!-- // icon -->
 <!-- css -->
 <link rel="stylesheet" href="<?=base_url().'assets/css/style.css';?>" type="text/css" media="all" />
 <!--// css -->
