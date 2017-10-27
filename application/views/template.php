@@ -110,6 +110,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <ci:doc type="modules"/>
 
     <!-- footer -->
+    <style type="text/css">
+        .deskripsi{
+            text-align: justify;
+            text-indent: 40px;
+        }
+    </style>
     <div class="footer">
         <div class="container">
             <div class="agileinfo_footer_grids">
@@ -117,8 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="w3layouts-logo">
                         <h1><a href="<?=site_url().'home/Beranda';?>">PT Pitulas <span>Bojonegoro</span></a></h1>
                     </div>
-                    <p>Etiam condimentum mi nec tortor euismod, id lobortis odio dictum. Cras 
-                        suscipit elit eget mi volutpat facilisis.</p>
+                    <p class="deskripsi">PT Pitulas Bojonegoro merupakan salah satu Badan Usaha Milik Negara yang bergerak dalam bidang usaha pelayanan jasa kebandarudaraan dan pelayanan jasa terkait bandar udara di wilayah Indonesia Barat.</p>
                     <div class="agileinfo-social-grids">
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -129,22 +134,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
                 <div class="col-md-4 agileinfo_footer_grid">
-                    <h3>Contact Info</h3>
+                    <h3>Informasi Kontak</h3>
                     <ul class="agileinfo_footer_grid_list">
-                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
+                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Jl. Temperature No. 32 <span>Bojonegoro.</span></li>
                         <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
+                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+6281 024 125</li>
                     </ul>
                 </div>
                 <div class="col-md-4 agileinfo_footer_grid">
-                    <h3>Navigation</h3>
+                    <h3>Navigasi</h3>
                     <ul class="agileinfo_footer_grid_nav">
                         <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="<?=site_url().'home/Beranda';?>">Home</a></li>
                         <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="<?=site_url().'home/About';?>">Tentang Kami</a></li>
                         <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="gallery.html">Gallery</a></li>
-                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="typography.html">Typography</a></li>
-                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="icons.html">Icons</a></li>
-                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="mail.html">Mail Us</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"> </div>

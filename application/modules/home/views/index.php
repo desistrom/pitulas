@@ -11,7 +11,7 @@
 						<ul class="slides">
 							<li>	
 								<div class="banner_text">
-									<h3>Lorem ipsum dolor sit</h3>
+									<h3>Beras Kualitas Terbaik</h3>
 									<div class="w3ls-line"> </div>
 									<p>PT Pitulas Bojonegoro</p>
 									<div class="w3-button">
@@ -21,7 +21,7 @@
 							</li>
 							<li>	
 								<div class="banner_text">
-									<h3>Nam semper nisi enim</h3>
+									<h3>Kaya akan Kandungan</h3>
 									<div class="w3ls-line"> </div>
 									<p>PT Pitulas Bojonegoro</p>
 									<div class="w3-button">
@@ -39,8 +39,7 @@
 				$(window).load(function(){
 					$('.flexslider').flexslider({
 						animation: "slide",
-						speed: 10000,
-						timeout: 9000,
+						animationSpeed: 3000,
 						start: function(slider){
 						$('body').removeClass('loading');
 						}
@@ -125,22 +124,22 @@
 			</div>
 			<?php for ($i=1; $i <=3 ; $i++) { ?>
 				<div class="agileinfo-blog-grids">
-				<div class="col-md-4 wthree-blog">
-					<div class="w3-agileits-blog">
-						<div class="w3-agileits-blog-img">
-							<a href="single.html"><img src="images/7.jpg" alt="" /></a>
-						</div>
-						<div class="w3-agileits-blog-text">
-							<h4><a class="event-judul" href="<?=site_url().'home/Beranda/detail_event';?>">Pemanenan Padi</a></h4>
-							<p>
-								Pemanenan padi dilakukan di desa Mojodelik Kabupaten Bojonegoro, pada bulan November lalu yang menghasilkan ribuat ton padi yang belum jadi beras ....
-							</p>
+					<div class="col-md-4 wthree-blog">
+						<div class="w3-agileits-blog">
+							<div class="w3-agileits-blog-img">
+								<a href="single.html"><img src="images/7.jpg" alt="" /></a>
+							</div>
+							<div class="w3-agileits-blog-text">
+								<h4><a class="event-judul" href="<?=site_url().'home/Beranda/detail_event';?>">Pemanenan Padi</a></h4>
+								<p>
+									Pemanenan padi dilakukan di desa Mojodelik Kabupaten Bojonegoro, pada bulan November lalu yang menghasilkan ribuat ton padi yang belum jadi beras ....
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			<?php } ?>
 				<div class="clearfix"> </div>
-			</div>
 			</div>
 		</div>
 	</div>
